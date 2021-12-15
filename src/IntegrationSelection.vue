@@ -118,7 +118,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .integration-selection {
   min-height: 700px;
 }

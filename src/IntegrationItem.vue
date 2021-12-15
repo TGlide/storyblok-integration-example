@@ -41,21 +41,22 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .integration-item {
   border: 1px solid #ddd;
   padding: 10px;
   background: #fff;
   display: flex;
   justify-content: space-between;
-
-  &.integration-item--selected {
-    border-color: #09b3af;
-    outline: 0;
-    background: #f2f9f8;
-    color: #444;
-  }
 }
+
+.integration-item .integration-item--selected {
+  border-color: #09b3af;
+  outline: 0;
+  background: #f2f9f8;
+  color: #444;
+}
+
 .integration-item__left {
   width: 60px;
   height: 60px;
@@ -71,7 +72,7 @@ export default {
   max-width: 60px;
   max-height: 60px;
   margin: 0 auto;
-}
+}s
 .integration-item__right {
   flex-grow: 1;
   padding-left: 10px;
